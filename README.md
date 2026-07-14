@@ -49,7 +49,7 @@ free-tier-friendly stack.
 | 🏆 **Gamification** | XP, 25+ badges (5 rarity tiers), levels, daily quests, streaks |
 | 🔔 **Smart notifications** | Proximity alerts for nearby reports, friend activity, in-app + push |
 | 🤖 **AI safety assistant** | Natural-language Q&A grounded in the community's own report data |
-| 🌐 **Web landing page** | safepathco.app — React/Vite/Tailwind, 5 languages, animated hero |
+| 🌐 **Web landing page** | https://safepathco.app — React/Vite/Tailwind, 5 languages, animated hero |
 
 ## How it works
 
