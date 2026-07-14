@@ -16,7 +16,7 @@ SafePath turns real-time, crowd-sourced safety reports into a live risk map and 
 [![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Web-informational)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[Live demo](https://safepathco.app) · [Report a bug](https://github.com/<user>/<repo>/issues) · [Request a feature](https://github.com/<user>/<repo>/issues)
+[Landing Page](https://safepathco.app) · [Report a bug](https://github.com/<user>/<repo>/issues) · [Request a feature](https://github.com/<user>/<repo>/issues)
 
 <img src="docs/assets/demo.gif" alt="SafePath demo" width="720" />
 
