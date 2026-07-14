@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/SafePathLogo.svg" alt="SafePath logo" width="96" />
+<img src="docs/assets/logo.png" alt="SafePath logo" width="96" />
 
 # SafePath
 
@@ -54,16 +54,16 @@ free-tier-friendly stack.
 ## How it works
 
 ```
-   report submitted            grid updated              route requested
-┌───────────────┐        ┌────────────────────┐        ┌──────────────────────┐
-│  Flutter app  │──────▶│  RoadScoreService    │──────▶│  SafetyRouter (A*)    │
-│  (report UI)  │        │  Firestore grid      │        │  + OSRM alternatives  │
-└───────────────┘        │  (time-decayed,      │        └──────────────────────┘
-                          │   trust-weighted)     │                  │
-                          └────────────────────┘                  ▼
-                                                            safest / balanced /
-                                                            fastest route + turn-
-                                                            by-turn navigation
+report submitted            grid updated              route requested
+┌───────────────┐        ┌───────────────────┐        ┌──────────────────────┐
+│  Flutter app  │ ────▶ │  RoadScoreService  │ ────▶ │  SafetyRouter (A*)   │
+│  (report UI)  │        │  Firestore grid   │        │  + OSRM alternatives │
+└───────────────┘        │  (time-decayed,   │        └──────────────────────┘
+                         │  trust-weighted)  │                   │
+                         └────────────────────┘                  ▼
+                                                      safest / balanced / fastest route
+                                                                  +
+                                                        turn- by-turn navigation
 ```
 
 ## Tech stack
@@ -75,26 +75,26 @@ free-tier-friendly stack.
 - **Web:** React, Vite, Tailwind CSS v4, Framer Motion (safepathco.app)
 - **State:** Singleton `ChangeNotifier` (`AppState`)
 
-## Getting started
+## Get the app
 
-```bash
-# 1. Clone
-git clone https://github.com/<user>/<repo>.git
-cd <repo>
+SafePath is a mobile app, not a library you build locally — get it from the store:
 
-# 2. Install dependencies
-flutter pub get
+[![Get it on Google Play](https://img.shields.io/badge/Google%20Play-Download-414141?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=YOUR_PACKAGE_ID)
 
-# 3. Add your own Firebase config
-#    (google-services.json / firebase_options.dart — see docs/FIREBASE_SETUP.md)
+> Also available at [safepathco.app](https://safepathco.app) (web version).
 
-# 4. Run
-flutter run -d chrome     # web
-flutter run                # connected device/emulator
-```
+<!--
+If the app isn't published yet, replace the block above with:
 
-> Full Firebase project setup (Auth, Firestore rules, indexes) is documented in
-> [`docs/FIREBASE_SETUP.md`](docs/FIREBASE_SETUP.md).
+## Status
+
+🚧 SafePath is currently in private beta and launching soon on Google Play.
+[Join the waitlist](https://safepathco.app) to get notified.
+-->
+
+This repository is a **showcase** of the project — architecture, design decisions, and
+selected code — rather than the full production source, which stays private while the
+app is live on the store.
 
 ## Project structure
 
