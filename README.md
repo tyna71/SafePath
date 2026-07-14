@@ -81,7 +81,7 @@ SafePath is a mobile app, not a library you build locally — get it from the st
 
 [![Get it on Google Play](https://img.shields.io/badge/Google%20Play-Download-414141?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=YOUR_PACKAGE_ID)
 
-> Also available at [safepathco.app](https://safepathco.app) (web version).
+> Also you can download from [safepathco.app](https://safepathco.app) (Landing Page).
 
 <!--
 If the app isn't published yet, replace the block above with:
