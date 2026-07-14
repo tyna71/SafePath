@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/logo.png" alt="SafePath logo" width="96" />
+<img src="docs/assets/SafePathLogo.svg" alt="SafePath logo" width="96" />
 
 # SafePath
 
