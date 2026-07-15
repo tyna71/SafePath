@@ -18,7 +18,7 @@ SafePath turns real-time, crowd-sourced safety reports into a live risk map and 
 
 [Landing Page](https://safepathco.app) · [Report a bug](https://github.com/tyna71/SafePath/issues) · [Request a feature](https://github.com/tyna71/SafePath/issues)
 
-<img src="docs/assets/demo.gif" alt="SafePath demo" width="720" />
+
 
 </div>
 
